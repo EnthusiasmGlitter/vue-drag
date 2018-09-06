@@ -3,15 +3,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import VueLazyload from 'vue-lazyload'
-// import 'swiper/dist/css/swiper.css'
-// import 'swiper/dist/js/swiper.js';
 
 Vue.config.productionTip = false
-
-Vue.use(VueLazyload, {
-  loading: require('./common/image/default.png')
-})
 
 /* eslint-disable no-new */
 new Vue({
